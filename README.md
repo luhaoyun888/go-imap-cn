@@ -1,5 +1,9 @@
 # go-imap
 
+此库是只修改了注释为中文方便理解，使用得ai翻译
+原地址：https://github.com/emersion/go-imap
+
+
 [![Go 参考](https://pkg.go.dev/badge/github.com/emersion/go-imap/v2.svg)](https://pkg.go.dev/github.com/emersion/go-imap/v2)
 
 一个用于 Go 的 [IMAP4rev2] 库。
