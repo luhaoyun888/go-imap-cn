@@ -12,7 +12,7 @@
 
 要将 go-imap 添加到您的项目中，请运行：
 
-    go get github.com/emersion/go-imap/v2
+    go get github.com/luhaoyun888/go-imap-cn
 
 该模块的文档和示例可在以下位置找到：
 
