@@ -1,4 +1,4 @@
-module github.com/emersion/go-imap/v2
+module github.com/luhaoyun888/go-imap-cn
 
 go 1.18
 
