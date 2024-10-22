@@ -16,6 +16,10 @@ import (
 // Fetch 发送一个FETCH命令。
 // 调用者必须完全消费 FetchCommand。一个简单的方式是使用 defer 调用 FetchCommand.Close 来确保。
 // 如果 options 指针为 nil，相当于一个默认的 options 值。
+// 参数：
+//
+// numSet - 指定要获取的邮件编号集合。
+// options - 可选参数，用于定义获取邮件时的附加选项（如更改时间）。
 func (c *Client) Fetch(numSet imap.NumSet, options *imap.FetchOptions) *FetchCommand {
 	if options == nil {
 		options = new(imap.FetchOptions)
